@@ -13,7 +13,7 @@ public class TestUsingPostmanEcho {
                 .post("/post")
                 .then()// Проверки
                 .statusCode(200)
-                .body("data", equalTo("Hello, world!"))
+                .body("data", equalTo("Bye, world!"))
         ;
     }
 }
